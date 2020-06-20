@@ -24,7 +24,7 @@ h1{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    font-size: 350px;
+    font-size: 300px;
     border-bottom: solid;
     border-color: #AAEE99;
     border-width: 10px;
