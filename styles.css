@@ -206,15 +206,30 @@ a:link {
     color: #79021F;
     text-align: center;
     padding: 0px;
-
   }
+
   form {
     background-color: #cc7178;
     border: dotted #AAEE99 10px;
     margin: 50px auto;
     width: 90%;
 }
-
+::-webkit-input-placeholder {
+  color: grey;
+  font-size: 13px;
+}
+::-moz-placeholder {
+  color: grey;
+  font-size: 13px;
+}
+:-ms-input-placeholder {
+  color: grey;
+  font-size: 13px;
+}
+::placeholder {
+  color: grey;
+  font-size: 13px;
+}
 .form-item {
     display: flex;
     justify-content: center;
