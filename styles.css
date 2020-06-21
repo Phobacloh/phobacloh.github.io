@@ -345,3 +345,17 @@ nav a{
 footer{
   height: 60px;
 }
+.friend{
+  margin: 2px;
+  font-size: 20px;
+}
+.socials{
+  height: 20px;
+  padding-top: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.freepik{
+  font-size: 10px;
+  margin: 0;
