@@ -19,16 +19,7 @@ header{
 h1{
   margin-top: 150px;
   padding-top: 20px;
-}
 
-.sidebar-h2{
-  font-family: 'Amatic SC', cursive;
-  font-size: 35px;
-  color: #79021F;
-  background-color: #AAEE99;
-  text-align: center;
-  padding: 0px;
-  margin: 7px;
 }
 .name{
     display: flex;
@@ -55,11 +46,17 @@ h1{
   padding: 0;
   margin: 0;
 }
+
+nav a{
+  color: #79021F;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+}
+
 div.nav-bar nav{
   background-color: #AAEE99;
   border-style: solid; 
   border-color: #AAEE99;
-  font-size: 25px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 2px;
@@ -119,6 +116,15 @@ div.nav-bar{
   flex-grow: 1;
   margin: 10px;
 }
+.sidebar-h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: #79021F;
+  background-color: #AAEE99;
+  text-align: center;
+  padding: 0px;
+  margin: 7px;
+}
 .project{
   border: 2px solid #AAEE99;
   flex-grow: 1;
@@ -167,12 +173,6 @@ footer{
 .freepik{
   font-size: 15px;
   margin: 0;
-}
-
-nav a{
-    color: #79021F;
-    font-family: 'Amatic SC', cursive;
-    font-size: 35px;
     
 }
 /* unvisited link */
@@ -281,4 +281,69 @@ a:link {
     font-family: 'Amatic SC', cursive;
     color: #79021F;
     font-size: 25px;
+}
+/* $desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px; */
+
+@media (max-width:768px){
+ .name{
+  font-size: 100px;
+  height: 180px;
+  
+}
+h1{
+  margin-top: 60px;
+  padding-top: 30px;
+}
+.bunting img{
+  height: 50px;
+}
+div.nav-bar nav{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  width: 33%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  font-size: 25px;
+}
+.profile-pic{
+  height: 150px;
+  border: dotted #AAEE99 5px;
+  flex-grow: 1;
+}
+.words{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-grow: 2;
+  text-align: center;
+  line-height: 25px;
+  margin: 0px;
+  font-size: 15px;
+}
+.side-bar{
+  /* width: 100px; */
+  flex-basis: 150px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 2px;
+}
+.sidebar-h2{
+  font-size: 20px;
+  margin: 7px;
+}
+.project{
+  font-size: 15px;
+}
+
+footer{
+  height: 60px;
+  border-width: 8px;
 }
