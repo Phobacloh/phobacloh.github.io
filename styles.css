@@ -21,7 +21,7 @@ h1{
   padding-top: 20px;
 }
 
-h2{
+.sidebar-h2{
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   color: #79021F;
@@ -119,10 +119,11 @@ div.nav-bar{
   flex-grow: 1;
   margin: 10px;
 }
-.wip{
-  height: 40px;
-  width: 40px;
+.project{
+  border: 2px solid #AAEE99;
+  flex-grow: 1;
 }
+
 footer{
   display: flex;
   flex-direction: column;
@@ -193,3 +194,76 @@ a:link {
   a:active {
     color: #c7e6b7;
   }
+
+  /* Contact Page */
+  .page2-h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: #79021F;
+    text-align: center;
+    padding: 0px;
+
+  }
+  form {
+    background-color: #cc7178;
+    border: dotted #AAEE99 10px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 15px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #AAEE99
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #9e5258;
+}
+
+.form-item input,
+.form-item textarea{
+    border: 2px dotted #AAEE99;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 18px;
+}
+.form-item button {
+    border: 2px solid #9e5258;
+    background-color: #AAEE99;
+    padding: 5px;
+    margin: 15px;
+    font-size: 18px;
+    
+}
+
+.form-item button:hover {
+    border: 2px solid #79021F;
+    background-color: #9e5258;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    color: #79021F;
+    font-size: 25px;
+}
