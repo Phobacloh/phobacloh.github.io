@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dosis:wght@500&display=swap');
 
-*{
+/* *{
   border: solid 1px;
-}
+} */
 html{
     font-family: 'Dosis', sans-serif;
     color: #9e5258;
@@ -19,6 +19,16 @@ header{
 h1{
   margin-top: 150px;
   padding-top: 20px;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: #79021F;
+  background-color: #AAEE99;
+  text-align: center;
+  padding: 0px;
+  margin: 7px;
 }
 .name{
     display: flex;
@@ -52,8 +62,9 @@ div.nav-bar nav{
   font-size: 25px;
   padding-left: 5px;
   padding-right: 5px;
+  padding-bottom: 2px;
   width: 33%;
-  height: 35px;
+  height: 40px;
   display: flex;
   justify-content: space-around;
 }
@@ -82,33 +93,42 @@ div.nav-bar{
   display: flex;
   align-items: flex-start;
   /* border:solid #cc7178 2px; */
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   flex-grow: 2;
   text-align: center;
   line-height: 40px;
+  margin: 0px;
 }
 .side-bar{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  background-color: #cc7178;
   width: 300px;
   flex-basis: 300px;
-  height: 600px;
   flex-grow: 1;
   flex-shrink: 0;
   justify-content: flex-start;
   align-content: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  /* border:solid #cc7178 2px; */
+  padding-left: 25px;
+  padding-right: 25px;
+  border: dotted #AAEE99 10px;
+  /* border-top: dotted #AAEE99 10px; */
   flex-grow: 1;
+  margin: 10px;
+}
+.wip{
+  height: 40px;
+  width: 40px;
 }
 footer{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  height: 100px;
+  justify-content: space-between;
+  height: 80px;
   border-top: solid;
   border-color:#AAEE99;
   border-width: 10px;
@@ -118,39 +138,40 @@ footer{
 }
 .socials-box{
   display: flex;
-  justify-self: flex-start;
-  align-self: center;
+  justify-content: center;
+  /* align-self: flex-start; */
   /* flex-grow: 1; */
-  margin:0;
+  margin:2px;
   padding: 0;
   /* flex-basis: 33%; */
 }
 .friend{
-  margin: 0;
+  margin: 2px;
 }
 .socials{
   display: flex;
   align-self: center;
   height: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .attribute{
   display: flex;
-  justify-self: center;
-  align-self: flex-end;
+  align-self: center;
   /* flex-grow: 1; */
-  margin:0;
+  margin:2px;
   padding: 0;;
 
 }
 .freepik{
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
 }
 
 nav a{
     color: #79021F;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
     
 }
 /* unvisited link */
