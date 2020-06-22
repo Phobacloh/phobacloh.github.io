@@ -266,7 +266,6 @@ a:link {
     background-color: #AAEE99;
     padding: 5px;
     margin: 15px;
-    font-size: 18px;
     
 }
 
@@ -547,6 +546,19 @@ a:link {
    .project{
      font-size: 15px;
    }
+   .page2-h2{
+     font-size: 30px;
+   }
+   .form-item button {
+    width: 159px;
+    font-family: 'Amatic SC', cursive;
+    color: #79021F;
+    font-size: 20px;
+   }
+   .form-item label {
+    flex-basis: 100px;
+    font-size: 18px;
+   }
    footer{
      height: 60px;
    }
@@ -566,7 +578,7 @@ a:link {
      margin: 0;
    }
  }
- @media (max-width: 685px) and (min-width:400px){
+ @media (max-width: 685px) and (min-width:570px){
 
   .name{
     font-size: 90px;
@@ -574,8 +586,8 @@ a:link {
     }
   
     h1{
-      margin-top: 60px;
-      padding-top: 30px;
+      margin-top: 50px;
+      padding-top: 20px;
     }
     .bunting img{
       height: 50px;
@@ -621,6 +633,19 @@ a:link {
     .project{
       font-size: 12px;
     }
+    .page2-h2{
+      font-size: 30px;
+    }
+    .form-item button {
+      width: 159px;
+      font-family: 'Amatic SC', cursive;
+      color: #79021F;
+      font-size: 20px;
+    }
+    .form-item label {
+      flex-basis: 100px;
+      font-size: 18px;
+    }
     footer{
       height: 45px;
     }
@@ -633,10 +658,202 @@ a:link {
       padding-top: 2px;
       padding-left: 20px;
       padding-right: 20px;
-  
     }
     .freepik{
       font-size: 8px;
       margin: 0;
  }
 }
+@media (max-width:570px) and (min-width:475px){
+.name{
+  font-size: 75px;
+  height: 120px;
+  }
+
+  h1{
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+  .bunting img{
+    height: 40px;
+  }
+  div.nav-bar nav{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    width: 33%;
+    height: 20px;
+  }
+  nav a{
+    font-size: 18px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-pic{
+    height: 130px;
+    border: dotted #AAEE99 5px;
+    flex-grow: 1;
+    margin-top: 10px;
+  }
+  .words{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 2;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px;
+    font-size: 15px;
+  }
+  .side-bar{
+    width: 90%;
+    flex-basis: 110px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: 2px;
+    border: dotted #AAEE99 5px;
+    margin:10px
+  }
+  .sidebar-h2{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    height: fit-content;
+    
+  }
+  .project{
+    font-size: 10px;
+  }
+  .page2-h2{
+    font-size: 30px;
+  }
+  .form-item button {
+    width: 159px;
+    font-family: 'Amatic SC', cursive;
+    color: #79021F;
+    font-size: 20px;
+  }
+  .form-item label {
+    flex-basis: 100px;
+    font-size: 18px;
+  }
+  footer{
+    height: 45px;
+  }
+  .friend{
+    margin: 2px;
+    font-size: 15px;
+  }
+  .socials{
+    height: 15px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .freepik{
+    font-size: 8px;
+    margin: 0;
+  }
+}
+@media (max-width:475px){
+  .name{
+    font-size: 55px;
+    height: 100px;
+    }
+  
+    h1{
+      margin-top: 30px;
+      padding-top: 15px;
+    }
+    .bunting img{
+      height: 35px;
+    }
+    div.nav-bar nav{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 2px;
+      width: 33%;
+      height: 20px;
+    }
+    nav a{
+      font-size: 18px;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-pic{
+      height: 130px;
+      border: dotted #AAEE99 5px;
+      flex-grow: 1;
+      margin-top: 10px;
+    }
+    .words{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      flex-grow: 2;
+      text-align: center;
+      line-height: 20px;
+      margin: 0px;
+      font-size: 15px;
+    }
+    .side-bar{
+      width: 90%;
+      flex-basis: 110px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-direction: row;
+      padding: 2px;
+      border: dotted #AAEE99 5px;
+      margin:10px
+    }
+    .sidebar-h2{
+      font-size: 18px;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 10px;
+      height: fit-content;
+    }
+    .project{
+      font-size: 10px;
+    }
+    .page2-h2{
+      font-size: 20px;
+    }
+    .form-item button {
+      width: 159px;
+      font-family: 'Amatic SC', cursive;
+      color: #79021F;
+      font-size: 15px;
+    }
+    .form-item label {
+      flex-basis: 70px;
+      font-size: 15px;
+    }
+    footer{
+      height: 30px;
+    }
+    .friend{
+      margin: 2px;
+      font-size: 10px;
+    }
+    .socials{
+      height: 10px;
+      padding-top: 2px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .freepik{
+      font-size: 8px;
+      margin: 0;
+    }
+  }
