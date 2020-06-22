@@ -282,134 +282,52 @@ a:link {
     color: #79021F;
     font-size: 25px;
 }
-/* $desktop: 1240px +;
-$laptop: 1024px;
-$tablet: 768px;
-$phone: 480px; */
-
-@media (max-width:768px){
- .name{
-  font-size: 100px;
-  height: 180px;
-  
-}
-h1{
-  margin-top: 60px;
-  padding-top: 30px;
-}
-.bunting img{
-  height: 50px;
-}
-div.nav-bar nav{
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 2px;
-  width: 33%;
-  height: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-nav a{
-  font-size: 25px;
-}
-.profile-pic{
-  height: 150px;
-  border: dotted #AAEE99 5px;
-  flex-grow: 1;
-}
-.words{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  flex-grow: 2;
-  text-align: center;
-  line-height: 25px;
-  margin: 0px;
-  font-size: 15px;
-}
-.side-bar{
-  /* width: 100px; */
-  flex-basis: 150px;
-  flex-grow: 1;
-  flex-shrink: 0;
-  padding: 2px;
-}
-.sidebar-h2{
-  font-size: 20px;
-  margin: 7px;
-}
-.project{
-  font-size: 15px;
-}
-footer{
-  height: 60px;
-}
-.friend{
-  margin: 2px;
-  font-size: 20px;
-}
-.socials{
-  height: 20px;
-  padding-top: 2px;
-  padding-left: 25px;
-  padding-right: 25px;
-
-}
-.freepik{
-  font-size: 10px;
-  margin: 0;
-}
-@media (min-width:768px) and (max-width:1240px) {
+@media (min-width:1070px) and (max-width:1240px) {
   .name{
-    font-size: 100px;
-    height: 180px;
-    
+    font-size: 170px;
+    height: 280px;
   }
   h1{
-    margin-top: 60px;
-    padding-top: 30px;
+    margin-top: 80px;
+    padding-top: 50px;
   }
   .bunting img{
-    height: 50px;
+    height: 100px;
   }
   div.nav-bar nav{
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 2px;
-    width: 33%;
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
+    height: 35px;
   }
   nav a{
-    font-size: 25px;
+    font-size: 30px;
   }
   .profile-pic{
-    height: 150px;
-    border: dotted #AAEE99 5px;
+    height: 280px;
+    border: dotted #AAEE99 10px;
     flex-grow: 1;
   }
   .words{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     flex-grow: 2;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     margin: 0px;
-    font-size: 15px;
+    font-size: 20px;
   }
   .side-bar{
     /* width: 100px; */
-    flex-basis: 150px;
+    flex-basis: 280px;
     flex-grow: 1;
-    flex-shrink: 0;
-    padding: 2px;
+    /* flex-shrink: 0; */
+    padding: 15px;
   }
   .sidebar-h2{
-    font-size: 20px;
+    font-size: 30px;
     margin: 7px;
   }
   .project{
@@ -434,4 +352,291 @@ footer{
     margin: 0px;
   }
 }
+@media (max-width: 1070px) and (min-width:935px){
+  .name{
+    font-size: 150px;
+    height: 250px;
+  }
+  h1{
+    margin-top: 80px;
+    padding-top: 40px;
+  }
+  .bunting img{
+    height: 70px;
+  }
+  div.nav-bar nav{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    height: 30px;
+  }
+  nav a{
+    font-size: 25px;
+  }
+  .profile-pic{
+    height: 250px;
+    border: dotted #AAEE99 10px;
+    flex-grow: 1;
+  }
+  .words{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 2;
+    text-align: center;
+    line-height: 30px;
+    margin: 0px;
+    font-size: 17px;
+  }
+  .side-bar{
+    /* width: 100px; */
+    flex-basis: 230px;
+    flex-grow: 1;
+    /* flex-shrink: 0; */
+    padding: 15px;
+  }
+  .sidebar-h2{
+    font-size: 25px;
+    margin: 7px;
+  }
+  .project{
+    font-size: 15px;
+  }
+  footer{
+    height: 60px;
+  }
+  .friend{
+    margin: 2px;
+    font-size: 20px;
+  }
+  .socials{
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  .freepik{
+    font-size:10px;
+    margin: 0px;
+  }
+}
+@media (max-width: 935px) and (min-width:768px){
+  .name{
+    font-size: 130px;
+    height: 210px;
+    }
+  
+    h1{
+      margin-top: 70px;
+      padding-top: 30px;
+    }
+    .bunting img{
+      height: 70px;
+    }
+    div.nav-bar nav{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 2px;
+      width: 33%;
+      height: 28px;
+    }
+    nav a{
+      font-size: 25px;
+    }
+    .profile-pic{
+      height: 200px;
+      border: dotted #AAEE99 10px;
+      flex-grow: 1;
+    }
+    .words{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 25px;
+      margin: 0px;
+      font-size: 17px;
+    }
+    .side-bar{
+      /* width: 100px; */
+      flex-basis: 200px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding: 2px;
+    }
+    .sidebar-h2{
+      font-size: 20px;
+      margin: 7px;
+    }
+    .project{
+      font-size: 15px;
+    }
+    footer{
+      height: 60px;
+    }
+    .friend{
+      margin: 2px;
+      font-size: 20px;
+    }
+    .socials{
+      height: 20px;
+      padding-top: 2px;
+      padding-left: 25px;
+      padding-right: 25px;
+  
+    }
+    .freepik{
+      font-size: 10px;
+      margin: 0;
+    }
+}
+@media (max-width:810px) and (min-width:685px){
+  .name{
+   font-size: 110px;
+   height: 180px;
+   }
+ 
+   h1{
+     margin-top: 60px;
+     padding-top: 30px;
+   }
+   .bunting img{
+     height: 50px;
+   }
+   div.nav-bar nav{
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-bottom: 2px;
+     width: 33%;
+     height: 30px;
+     display: flex;
+     justify-content: space-around;
+   }
+   nav a{
+     font-size: 25px;
+   }
+   .profile-pic{
+     height: 150px;
+     border: dotted #AAEE99 5px;
+     flex-grow: 1;
+   }
+   .words{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     flex-grow: 2;
+     text-align: center;
+     line-height: 25px;
+     margin: 0px;
+     font-size: 15px;
+   }
+   .side-bar{
+     /* width: 100px; */
+     flex-basis: 150px;
+     flex-grow: 1;
+     flex-shrink: 0;
+     padding: 2px;
+   }
+   .sidebar-h2{
+     font-size: 20px;
+     margin: 7px;
+   }
+   .project{
+     font-size: 15px;
+   }
+   footer{
+     height: 60px;
+   }
+   .friend{
+     margin: 2px;
+     font-size: 20px;
+   }
+   .socials{
+     height: 20px;
+     padding-top: 2px;
+     padding-left: 25px;
+     padding-right: 25px;
+ 
+   }
+   .freepik{
+     font-size: 10px;
+     margin: 0;
+   }
+ }
+ @media (max-width: 685px) and (min-width:400px){
+
+  .name{
+    font-size: 90px;
+    height: 150px;
+    }
+  
+    h1{
+      margin-top: 60px;
+      padding-top: 30px;
+    }
+    .bunting img{
+      height: 50px;
+    }
+    div.nav-bar nav{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 2px;
+      width: 33%;
+      height: 25px;
+    }
+    nav a{
+      font-size: 20px;
+    }
+    .profile-pic{
+      height: 120px;
+      border: dotted #AAEE99 5px;
+      flex-grow: 1;
+    }
+    .words{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      flex-grow: 2;
+      text-align: center;
+      line-height: 25px;
+      margin: 0px;
+      font-size: 15px;
+    }
+    .side-bar{
+      /* width: 100px; */
+      flex-basis: 120px;
+      flex-grow: 1;
+      flex-shrink: 0;
+      padding: 2px;
+      border: dotted #AAEE99 5px;
+    }
+    .sidebar-h2{
+      font-size: 20px;
+      margin: 7px;
+    }
+    .project{
+      font-size: 12px;
+    }
+    footer{
+      height: 45px;
+    }
+    .friend{
+      margin: 2px;
+      font-size: 15px;
+    }
+    .socials{
+      height: 15px;
+      padding-top: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+  
+    }
+    .freepik{
+      font-size: 8px;
+      margin: 0;
+ }
 }
