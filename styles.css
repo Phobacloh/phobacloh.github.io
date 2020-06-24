@@ -297,7 +297,6 @@ a:link {
     margin: 15px;
     
 }
-
 .form-item button:hover {
     border: 2px solid #79021F;
     background-color: #9e5258;
@@ -963,6 +962,7 @@ a:link {
     }
     .page2-h2{
       font-size: 20px;
+  
     }
     .form-item button {
       width: 159px;
@@ -972,7 +972,7 @@ a:link {
     }
     .form-item label {
       flex-basis: 70px;
-      font-size: 15px;
+      font-size: 13px;
     }
     ::-webkit-input-placeholder {
       color: grey;
@@ -990,6 +990,7 @@ a:link {
       color: grey;
       font-size: 10px;
     }
+
     footer{
       height: 30px;
     }
