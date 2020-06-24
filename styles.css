@@ -281,6 +281,56 @@ a:link {
     color: #79021F;
     font-size: 25px;
 }
+@media (min-width:1700px){
+  .name{
+    font-size: 220px;
+  }
+  .bunting img{
+    height: 150px;
+  }
+  div.nav-bar nav{
+    height: 45px;
+  }
+  nav a{
+    font-size:40px;
+  }
+  .profile-pic{
+    height: 400px;
+  }
+  .words{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .side-bar{
+    flex-basis: 400px;
+  }
+  .sidebar-h2{
+    font-size: 40px;
+    margin: 10px;
+  }
+  .project{
+    font-size: 25px;
+  }
+  .friend{
+    margin: 2px;
+    font-size: 25px;
+  }
+  .socials{
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+  .freepik{
+    font-size:15px;
+    margin: 0px;
+  }
+}
 @media (min-width:1070px) and (max-width:1240px) {
   .name{
     font-size: 170px;
@@ -319,10 +369,8 @@ a:link {
     font-size: 20px;
   }
   .side-bar{
-    /* width: 100px; */
     flex-basis: 280px;
     flex-grow: 1;
-    /* flex-shrink: 0; */
     padding: 15px;
   }
   .sidebar-h2{
@@ -351,7 +399,7 @@ a:link {
     margin: 0px;
   }
 }
-@media (max-width: 1070px) and (min-width:935px){
+@media (min-width:935px) and (max-width: 1250px){
   .name{
     font-size: 150px;
     height: 250px;
@@ -421,7 +469,7 @@ a:link {
     margin: 0px;
   }
 }
-@media (max-width: 935px) and (min-width:768px){
+@media (max-width: 935px) and (min-width:810px){
   .name{
     font-size: 130px;
     height: 210px;
@@ -559,6 +607,26 @@ a:link {
     flex-basis: 100px;
     font-size: 18px;
    }
+   ::-webkit-input-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  ::-moz-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  :-ms-input-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  ::placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  .form-item input,
+  .form-item textarea {
+    flex-basis: 40%;
+  }
    footer{
      height: 60px;
    }
@@ -645,6 +713,26 @@ a:link {
     .form-item label {
       flex-basis: 100px;
       font-size: 18px;
+    }
+    ::-webkit-input-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    ::-moz-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    :-ms-input-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    ::placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    .form-item input,
+    .form-item textarea {
+    flex-basis: 40%;
     }
     footer{
       height: 45px;
@@ -743,6 +831,22 @@ a:link {
     flex-basis: 100px;
     font-size: 18px;
   }
+  ::-webkit-input-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  ::-moz-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  :-ms-input-placeholder {
+    color: grey;
+    font-size: 10px;
+  }
+  ::placeholder {
+    color: grey;
+    font-size: 10px;
+  }
   footer{
     height: 45px;
   }
@@ -763,7 +867,7 @@ a:link {
 }
 @media (max-width:475px){
   .name{
-    font-size: 55px;
+    font-size: 50px;
     height: 100px;
     }
   
@@ -838,6 +942,22 @@ a:link {
     .form-item label {
       flex-basis: 70px;
       font-size: 15px;
+    }
+    ::-webkit-input-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    ::-moz-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    :-ms-input-placeholder {
+      color: grey;
+      font-size: 10px;
+    }
+    ::placeholder {
+      color: grey;
+      font-size: 10px;
     }
     footer{
       height: 30px;
