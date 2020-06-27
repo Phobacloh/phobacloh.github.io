@@ -490,8 +490,8 @@ a:link {
   .socials{
     height: 20px;
     padding-top: 2px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
   
   }
   .freepik{
@@ -560,8 +560,8 @@ a:link {
     .socials{
       height: 20px;
       padding-top: 2px;
-      padding-left: 25px;
-      padding-right: 25px;
+      padding-left: 15px;
+      padding-right: 15px;
   
     }
     .freepik{
@@ -667,8 +667,8 @@ a:link {
    .socials{
      height: 20px;
      padding-top: 2px;
-     padding-left: 25px;
-     padding-right: 25px;
+     padding-left: 15px;
+     padding-right: 15px;
  
    }
    .freepik{
@@ -774,8 +774,8 @@ a:link {
     .socials{
       height: 15px;
       padding-top: 2px;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
     .freepik{
       font-size: 8px;
@@ -887,8 +887,8 @@ a:link {
   .socials{
     height: 15px;
     padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .freepik{
     font-size: 8px;
@@ -1001,11 +1001,12 @@ a:link {
     .socials{
       height: 10px;
       padding-top: 2px;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 5px;
+      padding-right: 5px;
     }
     .freepik{
       font-size: 8px;
       margin: 0;
+      
     }
   }
